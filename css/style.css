@@ -1,0 +1,560 @@
+/* =HTML & BODY
+----------------------------------------------- */
+
+html { 
+	background-color: #f8fcf1;
+	color: #666666;
+	height: 100%;
+	font-family: 'Nobile', sans-serif;
+	font-size: 0.8125em; /* 13px / 16px */
+	text-shadow: 0 1px 0 #ffffff;
+}
+
+body {
+	height: 100%;
+}
+
+/* =HEADINGS
+----------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+	border-top: 5px dashed #dee2d8;
+	color: #00b0ec;
+	font-family: 'Amaranth', sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 1.2em;
+	margin:  1em 0;
+	padding-top: 1em;
+	text-shadow: 0 1px 0 #ffffff;
+}
+
+/* =TYPOGRAPHY
+----------------------------------------------- */
+
+p {
+	margin: 1em 0;
+}
+
+ol {
+	list-style-type: decimal;
+	margin: 1em 1em 1em 4em;
+}
+
+ul {
+	list-style-type: circle;
+	margin: 1em 1em 1em 4em;
+
+}
+
+	ul li {
+
+	}
+
+/* =LINKS
+----------------------------------------------- */
+
+a, a:visited {
+	color: #666666;
+	font-weight: 700;
+}
+ 
+a:hover { 
+	color: #4c4c4c;
+}
+ 
+a:active, a:focus { 
+
+}
+
+/* =FIGURES
+----------------------------------------------- */
+
+figure {
+	
+}
+
+figcaption {
+	
+}
+
+/* =TABLES
+----------------------------------------------- */
+
+table ul {
+	margin-top: 0;
+}
+
+.GeoSEO table td {
+	display: block;
+	margin-top: -13px;
+}
+
+	.GeoSEO table tr td:first-child {
+		margin-top: 0;
+	}
+
+/* =FORMS
+----------------------------------------------- */
+
+fieldset {
+	text-align: center;
+}
+
+	fieldset .selectBox {
+		-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			box-sizing: border-box;
+		color: #666666;
+		font-size: 1.5em;
+		margin: 1em 0;
+		max-width: 600px;
+		text-align: left;
+		width: 100%;
+	}
+
+/* =HEADER
+----------------------------------------------- */
+
+header {
+	-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+	border-bottom: 20px double #dee2d8;
+	margin: 0 auto;
+	padding: 0 2em;
+	max-width: 960px;
+	width: 90%;
+}
+
+	header:after {
+		clear: both;
+		content: "";
+		display: table;
+	}
+
+a#logo {
+	color: #07384d;
+	display: table-cell;
+	font-family: 'Amaranth', sans-serif;
+	font-size: 2.4em;
+	font-weight: 700;
+	padding: 1.2em 1em 1em 0;
+	text-decoration: none;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+	a#logo img {
+		margin: 0 0.3em -14px 0;
+	}
+	
+	a#logo span {
+		color: #96d22d;
+	}
+
+/* =NAVIGATION
+----------------------------------------------- */
+
+/* Main */
+
+nav {
+	-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+	display: table-cell;
+	margin: 0 auto;
+	padding: 1em 0 1em 0;
+	text-align: right;
+	vertical-align: bottom;
+	width: 100%;
+}
+
+nav > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	zoom: 1;
+}
+
+	nav > ul:after {
+		clear: both;
+		content: "";
+		display: table;
+	}
+
+nav > ul > li {
+	display: inline;
+	position: relative;
+}
+
+nav > ul > li > a {
+	-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+	display: inline-block;
+	font-size: 1.1em;
+	line-height: 2.4em;
+	list-style-type: none;
+	padding: 0 1em;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+nav > ul > li:hover > a {
+	background-color: #96d22d;
+	color: #f8fcf1;
+	box-shadow: 0 1px 0 #ffffff;
+	text-shadow: none;
+}
+
+	/* Sub Nav */
+	
+	nav > ul > li > ul {
+		clear: both;
+		display: none;
+		list-style-type: none;
+		margin: 0;
+		position: absolute;
+			top: auto;
+			left: 0;
+		text-align: left;
+		z-index: 200;
+	}
+	
+		nav > ul > li:hover > ul {
+			-webkit-box-shadow: 1px 3px 5px #888888;
+				-moz-box-shadow: 1px 3px 5px #888888;
+				box-shadow: 1px 3px 5px #888888;
+			display: block;
+		}
+		
+		nav > ul > li > ul > li {
+			background-color: #dee2d8;
+		}
+		
+		nav > ul > li > ul > li > a,
+		nav > ul > li > ul > li > a:visited {
+			display: block;
+			padding: 1.3em 1em;
+			text-decoration: none;
+			white-space: nowrap;
+		}
+		
+		nav > ul > li > ul > li > a:hover {
+			background-color: #eaf6d5;
+		}
+
+/* =BANNER
+----------------------------------------------- */
+
+#banner {
+	margin: 0 auto;
+	max-width: 960px;
+	text-align: center;
+	width: 90%;
+}
+
+	#banner img {
+		max-width: 100%;
+	}
+
+	#banner h1 {
+		border: none;
+		color: #00b0ec;
+		font-size: 3em;
+		margin: 0.5em 0 0.1em 0;
+		padding: 0;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+		#banner h1 span {
+			color: #07384d;
+			white-space: nowrap;
+		}
+
+	#banner h2 {
+		color: #07384d;
+		border: none;
+		margin: 0 0 0.5em 0;
+		padding: 0;
+	}
+	
+		#banner h2 span {
+
+		}
+
+	#banner h3 {
+		border: none;
+		margin: 0 0 0.5em 0;
+		padding: 0;
+		text-align: center;
+	}
+
+	#banner h4 {
+		background-color: #96d22d;
+		border: none;
+		box-shadow: 0 1px 0 #ffffff;
+		clear: both;
+		color: #f8fcf1;
+		font-family: 'Amaranth', sans-serif;
+		font-size: 3em;
+		margin: 0 0 1em 0;
+		padding: 0.5em 1em 0.3em 1em;
+		text-align: center;
+		text-shadow: none;
+	}
+		
+		#banner h4 img {
+			margin: 0 0.5em;
+		}
+		
+		#banner h4 span {
+			color: #07384d;
+			white-space: nowrap;
+		}
+		
+		#banner h4 a,
+		#banner h4 a:visited {
+			color: #f8fcf1;;
+		}
+
+	#banner ul {
+		list-style-type: none;
+		margin: 0 0 1em 0;
+		padding: 0;
+	}
+
+		#banner ul li {
+			-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				border-radius: 3px;		
+			background-color: #dee2d8;
+			display: inline;
+			line-height: 3em;
+			margin: 0 0.3em;
+			padding: 0.9em 1em 0.7em 1em;
+			white-space: nowrap;
+		}
+
+			#banner ul li a {
+				font-weight: normal;
+				text-decoration: none;
+			}
+
+/* =CONTENT
+----------------------------------------------- */
+
+#wrapper {
+	height: auto;
+	min-height: 100%;
+}
+	
+	#content {
+		line-height: 1.6em;
+		margin: 0 auto;
+		max-width: 960px;
+		padding-bottom: 8em;
+		width: 90%;
+	}
+
+	header + #content > h1:first-child,
+	header + #content > h2:first-child,
+	header + #content > h3:first-child,
+	header + #content > h4:first-child,
+	header + #content > h5:first-child,
+	header + #content > h6:first-child,
+	header + #content .GeoSEO > h1:first-child {
+		border: none;
+		padding-top: 0;
+	}
+	
+	/*.GeoSEO > h1:first-child {
+		border: none;
+		padding-top: 0;
+	}
+	
+		#banner + #content > .GeoSEO > h1:first-child {
+			border-top: 5px dashed #dee2d8;
+			padding-top: 1em;
+		}*/
+
+/* =FOOTER
+----------------------------------------------- */
+
+footer {
+	background-color: #dee2d8;
+	clear: both;
+	height: 2em;
+	line-height: 1.5em;
+	margin-top: -6em;
+	padding: 2em;
+	position: relative;
+	/*margin-top: 3em;*/
+	z-index: 10;
+}
+
+	footer p {
+		margin: 0;
+		/*padding: 2em;*/
+	}
+	
+	footer span {
+		white-space: nowrap;
+	}
+
+/* =PAGE - SERVICES
+----------------------------------------------- */
+
+#services {
+	margin: 2em 0;
+}
+
+	#services > a,
+	#services > a:visited {
+		-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+		-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+			-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+			box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+		border-bottom: 1px solid rgba(0,0,0,0.25);
+		color: #ffffff;
+		display: inline-block;
+		font-family: 'Amaranth', sans-serif;
+		font-size: 1.3em;
+		font-weight: 700;
+		height: 150px;
+		margin: 0 0.3em 0.7em 0.3em;
+		position: relative;
+		text-decoration: none;
+		text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+		width: 150px;
+	}
+	
+		#services > a > span {
+			display: block;
+			position: absolute;
+				top: 6em;
+				right: 0;
+				bottom: 0;
+				left: 0;
+		}
+		
+		#services > a > span > b {
+			display: block;
+		}
+	
+		#services > a.btnWater {
+			background: #1293ca url('../img/water.png') no-repeat center 1.5em;
+		}
+
+		#services > a.btnFlood {
+			background: #0f7caa url('../img/flood.png') no-repeat center 1.5em;
+		}
+		
+		#services > a.btnMold {
+			background: #0d658b url('../img/mold.png') no-repeat center 1.5em;
+		}
+		
+		#services > a.btnSewage {
+			background: #0a4f6c url('../img/sewage.png') no-repeat center 1.5em;
+		}
+		
+		#services > a.btnFire {
+			background: #07384d url('../img/fire.png') no-repeat center 1.5em;
+		}
+
+/* =VENDOR SPECIFIC
+----------------------------------------------- */
+
+/* =MODERNIZR
+----------------------------------------------- */
+
+/* =MEDIA QUERIES
+----------------------------------------------- */
+
+/* Styling for 1024px and smaller on both desktop and device */
+@media all and (max-device-width: 1024px), all and (max-width: 1024px) {
+
+	header {
+		text-align: center;
+	}
+	
+		a#logo {
+			display: block;
+			padding: 0.6em 0 0 0;
+			white-space: normal;
+			width: auto;
+		}
+	
+			a#logo img {
+				display: block;
+				margin: 0 auto 0.3em auto;
+			}
+	
+		nav {
+			display: block;
+			text-align: center;
+		}
+
+}
+
+/* Styling for 768px and smaller on both desktop and device */
+@media all and (max-device-width: 768px), all and (max-width: 768px) {
+	
+
+
+}
+
+/* Styling for 480px and smaller on both desktop and device */
+@media all and (max-device-width: 480px), all and (max-width: 480px) {
+
+	nav > ul > li > a {
+		float: left;
+		width: 50%;
+	}
+
+		nav > ul > li:hover > ul {
+			display: none;
+		}
+
+	#banner h1 {
+		font-size: 2em;
+	}
+
+	#banner h4 {
+		font-size: 1.5em;
+		padding: 0.7em 1em 0.5em 1em;
+	}
+	
+		#banner h4:before {
+			/*content: url('../img/phone-small.png');*/
+			margin-right: 0.5em;
+		}
+
+		#banner h4 img {
+			display: none;
+		}
+
+	#banner ul li {
+		display: block;
+		margin: 1em 3em;
+		padding: 0;
+	}
+
+	footer {
+		font-size: 0.9em;
+	}
+
+	#services a {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}

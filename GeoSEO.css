@@ -1,0 +1,28 @@
+
+/*  All Geo SEO pages  */
+/*div.GeoSEO {}
+div.GeoSEO h1 {text-align: center}
+div.GeoSEO h2 {text-align: center}*/
+
+div.GeoSEO div#GeoSEO-map {
+	height: 300px;
+	border: 5px solid #dee2d8;
+}
+
+
+/*  Geo SEO "home" page  */
+div#GeoSEO-home {clear: both}
+div#GeoSEO-home h1 {}
+div#GeoSEO-home h2 {}
+
+
+/*  Geo SEO "location" page  */
+div#GeoSEO-location {clear: none}
+div#GeoSEO-location h1 {}
+div#GeoSEO-location h2 {}
+
+
+/*  Geo SEO "keywords" page  */
+div#GeoSEO-keywords {clear: both}
+/*div#GeoSEO-keywords ul {font-size: 16px}
+div#GeoSEO-keywords ul li {margin-bottom: 4px}*/
